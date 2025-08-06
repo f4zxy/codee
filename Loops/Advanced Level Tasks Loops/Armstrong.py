@@ -112,22 +112,22 @@ else:
 # else:
 #    print(f"{num}This is not")
 
+num=int(input("Enter A Number :"))
+sum=0
+count=0
+temp=num
 
-# num=int(input("Enter A Number :"))
-# sum=0
-# count=0
-# temp=num
+x=num
+while x>0:
+   count+=1
+   x//=10
+while temp>0:
+   digit=temp%10
+   sum+=digit**count
+   temp//=10
+if num==sum:
+   print(f"{num}{" "}This is Armstrong")
+else:
+   print(f"{num}{" "}This is not Armstrong")
 
-# x=num
-# while x>0:
-#    count+=1
-#    x//=10
-# while temp>0:
-#    digit=temp%10
-#    sum+=digit**count
-#    temp//=10
-# if num==sum:
-#    print(f"{num}{" "}This is Armstrong")
-# else:
-#    print(f"{num}{" "}This is not Armstrong")
-
+ffff
