@@ -112,7 +112,6 @@ else:
 # else:
 #    print(f"{num}This is not")
 
-
 # num=int(input("Enter A Number :"))
 # sum=0
 # count=0
@@ -130,4 +129,5 @@ else:
 #    print(f"{num}{" "}This is Armstrong")
 # else:
 #    print(f"{num}{" "}This is not Armstrong")
+
 
