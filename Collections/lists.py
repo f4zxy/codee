@@ -45,17 +45,23 @@ fruits=["apple","orange","grape"]
 #    num-=1
 # print (fact)
 
-lst = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+# lst = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
 
-# Step 1: Get only even numbers
-even_numbers = []
-for x in lst:
-   if x % 2 == 0:
-      even_numbers.append(x)
+# # Step 1: Get only even numbers
+# even_numbers = []
+# for x in lst:
+#    if x % 2 == 0:
+#       even_numbers.append(x)
 
-# Step 2: Sort in descending order
-even_numbers.sort(reverse=True)
+# # Step 2: Sort in descending order
+# even_numbers.sort(reverse=True)
 
-# Step 3: Print the result
-for num in even_numbers:
-   print(num)
+# # Step 3: Print the result
+# for num in even_numbers:
+#    print(num)
+
+# num=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+# for n in num:
+#    if n%2!=0:
+#       print("odd number",n)
+
