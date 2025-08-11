@@ -11,4 +11,3 @@
 #       second = num
 
 # print("Second highest number is:", second)
-
