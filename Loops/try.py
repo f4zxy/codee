@@ -40,3 +40,34 @@
 #    num=int(input("Enter A number :"))
 # print("thankyou")
 
+#reversed string
+
+# a="fayis"
+# b=""
+# for x in a:
+#    b=x+b
+# print(b)
+
+# num=input("Enter 1st string :")
+# num1=input("Enter 2nd string :")
+# if sorted(num)==sorted(num1):
+#    print("its anagram")
+# else:
+#    print("not anagram")
+
+# numbers = []
+# print("Enter Five Number ")
+# for i in range(5):
+#    num = int(input(f"Enter number {i+1}: "))
+#    numbers.append(num)
+# for x in numbers:
+#    if x%2==0:
+#       print(x)
+
+
+# for i in range(5):
+#     num = int(input("Enter number: "))
+#     if num % 2 == 0:
+#         print(f"{num} is an even number")
+#     else:
+#         print(f"{num} is an odd number")

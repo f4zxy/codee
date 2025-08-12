@@ -120,7 +120,7 @@ else:
 # x=num
 # while x>0:
 #    count+=1
-#    x//=10
+#    x//=10 
 # while temp>0:
 #    digit=temp%10
 #    sum+=digit**count
@@ -130,4 +130,32 @@ else:
 # else:
 #    print(f"{num}{" "}This is not Armstrong")
 
+
+# while True:
+#    price = float(input("Enter the product price: ₹"))
+#    discount = float(input("Enter discount percentage: "))
+
+#    discount_amount = price * (discount / 100)
+#    final_price = price - discount_amount
+
+#    print(f"Final price after {discount}% discount is: ₹{final_price:.2f}")
+
+#    choice = input("Do you want to calculate another product? (yes/no): ").lower()
+#    if choice != "yes":
+#       break
+
+while True:
+   price = float(input("Enter the product price: ₹"))
+   discount = float(input("Enter discount percentage: "))
+
+   discount_amount = price * (discount / 100)
+   final_price = price - discount_amount     
+
+   print(f"You saved ₹{discount_amount:.2f}")
+   print(f"Final price after {discount}% discount is: ₹{final_price:.2f}")
+
+   choice = input("Do you want to calculate another product? (yes/no): ").lower()
+   if choice != "yes":
+      print("Thanks for using the calculator!")
+      break
 
